@@ -23,12 +23,6 @@ node {
 	  sh 'mvn test'
       
     }
-	stage('Maven Package') {
-	   sh 'mvn package'
-      
-    }
-	stage('Maven Deploy') {
-	   sh 'mvn deploy'
-    }
+	
 	
 }
